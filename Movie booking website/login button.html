@@ -1,0 +1,158 @@
+<html>
+<head>
+    <meta>
+    <title> Login page </title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #f3ebefc6;
+            }
+    .form {
+        background-color: #f3ebefc6;
+        border: 8px solid white;
+        border-radius: 10px;
+        height: 500px;
+        width: 450px;
+        position: relative;
+        top: 200px;
+        left: 500px;
+        bottom: 100px;
+    }
+    .img{
+        
+        width: 300px;
+        height: 150px;
+        position: relative;
+        top: 40px;
+        left: 60px;
+    }
+    .email,.password,.login2{
+        position: relative;
+        top: 90px;
+        left: 15px;
+        width: 400px;
+        height: 50px;
+        border: 6px solid #f84464;
+        border-radius: 8px;
+    }
+    .form div .password{
+        margin: 30px 0px 30px 0px;
+    }
+    .login2{
+        width: 200px;
+        position: relative;
+        left: 120px;
+        background-color: #f84464;
+        border: #f84464;
+        color: aliceblue;
+        font-weight: bolder;
+        font-size: large;
+        border-radius: 5px;
+    }
+    .forget{
+        color: blue;
+        position: relative;
+        top: 100px;
+        left: 20px;
+    }
+  /*navigationbar */
+    .navigationbar {
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        top: 0px;
+        background-color: #333545;
+        height: 84px;
+        width: 100%;
+    }
+    .navigationbar li {
+        display: inline-block;
+    }
+    .navigationbar li #searchbar {
+        border-radius: 5px;
+        color: black;
+        background-color: white;
+        width: 380px;
+        height: 40px;
+        padding: 8px;
+        position: absolute;
+        top: 26px;
+        right: 620px;
+    }
+    .navigationbar li .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        height: 50px;
+        width: 200px;
+        filter: invert(100%);
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    button {
+        background-color: rgb(248, 68, 100);
+        padding: 7px 20px 7px 20px;
+        border: 3px solid rgb(248, 68, 100);
+        border-radius: 5px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .navigationbar .login {
+        position: absolute;
+        right: 30px;
+        top: 15px;
+
+    }
+
+    .navigationbar .login #login {
+        background-color: rgb(248, 68, 100);
+        padding: 10px 40px 12px 40px;
+        border: 3px solid rgb(248, 68, 100);
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+/* navigationbar */
+</style>
+</head>
+<body>
+    <div class="header">
+    <header>
+        <ul class="navigationbar">
+            <li><img src="/Movie Website/Movie-booking-website/logo.png" alt="" class="logo"></li>
+            <li> <input type="serach" placeholder="Search Here" id="searchbar"></li>
+            <!-- <li class="login"><button id="login"><a href="#"> Login </a></button></li> -->
+        </ul>
+    </header>
+    </div>
+
+    <div class="form">
+    <form action="">
+        <img src="/Movie Website/Movie-booking-website/logo.png" alt="" class="img">
+        <div>
+        <input type="text" placeholder="E-mail" class="email">
+        </div>
+        <div>
+        <input type="password" placeholder="Password"  class="password">
+        </div>
+        <div>
+        <input type="button" value="Login" class="login2">
+        </div>
+        <div>
+            <a href="" class="forget" > Forgot password ? </a>
+        </div>
+    </form>
+    </div>
+    
+</body>
+
+</html>

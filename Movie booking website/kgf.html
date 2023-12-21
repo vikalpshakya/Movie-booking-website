@@ -1,0 +1,179 @@
+<html>
+<head>
+    <meta>
+    <title> KGF 2 </title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    embed {
+        width: 600px;
+        height: 300px;
+        border: 2px solid;
+        border-radius: 3px;
+        position: absolute;
+        top: 170px;
+        left: 170px;
+    }
+    .para {
+        
+        position: absolute;
+        top: 120px;
+        right: 100px;
+        height: 230px;
+        width: 450px;
+    }
+    span{
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+        input {
+        position: absolute;
+        right: 200px;
+        top: 400px;
+        width: 300px;
+        height: 40px;
+        background-color: #f84464;
+        border: 2px solid #f84464;
+        border-radius: 3px;
+
+    }
+    /*navigationbar */
+    .navigationbar {
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        top: 0px;
+        background-color: #333545;
+        height: 84px;
+        width: 100%;
+    }
+    .navigationbar li {
+        display: inline-block;
+
+    }
+    .navigationbar li #searchbar {
+        border-radius: 5px;
+        color: black;
+        background-color: white;
+        width: 380px;
+        height: 40px;
+        padding: 8px;
+        position: absolute;
+        top: 26px;
+        right: 620px;
+    }
+    .navigationbar li .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        height: 50px;
+        width: 200px;
+        filter: invert(100%);
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    button {
+        background-color: rgb(248, 68, 100);
+        padding: 7px 20px 7px 20px;
+        border: 3px solid rgb(248, 68, 100);
+        border-radius: 5px;
+        position: relative;
+        bottom: 10px;
+    }
+    .navigationbar .login {
+        position: absolute;
+        right: 30px;
+        top: 15px;
+    }
+    .navigationbar .login #login {
+        background-color: #f84464;
+        padding: 10px 40px 12px 40px;
+        border: 3px solid rgb(248, 68, 100);
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    /* navigationbar */
+    /* footer  */
+    footer {
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+    footer .last {
+        background-color: #333545;
+        width: 100%;
+        height: 150px;
+    }
+    footer .copyright {
+        position: absolute;
+        bottom: 30px;
+        left: 540px;
+        color: white;
+    }
+    footer .last .footerbar {
+        height: 70px;
+    }
+    footer .last .footerbar li {
+        display: inline-block;
+    }
+    footer .last .footerbar .li {
+        position: relative;
+        top: 35px;
+        left: 530px;
+        color: white;
+        padding: 30px;
+    }
+    .hr {
+        position: absolute;
+        bottom: 50px;
+        left: 18%;
+        width: 70%;
+    }
+    /* footer end  */
+</style>
+</head>
+
+<body>
+    <header>
+        <ul class="navigationbar">
+            <li><img src="logo.png" alt="" class="logo"></li>
+            <li> <input type="serach" placeholder="Search Here" id="searchbar"></li>
+            <li class="login"><button id="login"><a href="#"> Login </a></button></li>
+        </ul>
+    </header>
+    <form action="">
+        <!-- embed is used for youtube -->
+        <embed style="width:500px;height:300px" src="https://www.youtube.com/embed/JKa05nyUmuQ" </embed>
+
+        <div class="para">
+            <p><span>Release date: 14 April 2022 (India)</span></p>
+            <p><span>Director: Prashanth Neel</span></p>
+            <p><span>Budget: 100 crores INR</span></p>
+            <p><span> Cinematography: Bhuvan Gowda</span></p>
+            <p></p><span>Art director: Shivakumar J.</span>
+        </div>
+        <input type="button" value="Book Ticket">
+    </form>
+    <footer>
+        <div class="last">
+            <ul class="footerbar">
+                <li><a href="#" class="li">Home</a></li>
+                <li><a href="https://in.bookmyshow.com/list-your-sh" class="li">Contact Us</a></li>
+                <li><a href="" class="li">Feed back</a></li>
+            </ul>
+            <hr class="hr">
+            <span class="copyright">
+                COPYRIGHT © 2022 PVR LTD. ALL RIGHTS RESERVED.
+            </span>
+        </div>
+    </footer>
+</body>
+</html>

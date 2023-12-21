@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header,navigationbar,headerbanner */
+body{
+    /* background-color: white; */
+    color: black
+}
+header{
+    /* background-color: white; */
+    height: 600px;
+}
+.navigationbar{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* flex-grow: 2; */
+    align-items: center;
+    /* background-color: #fc1321; */
+    height: 80px;
+    width: 100%;
+}
+.pop{
+    color: white;
+}
+.navimg{
+    /* flex-grow: 1; */
+    width: 220px;
+    height: 60px;
+    position: relative;
+    left: 40px;
+    top: 5px;
+    /* border: 3px solid orange; */
+    filter: invert(30%);
+}
+.navsearchbar{
+    /* flex-grow: 1; */
+    position: relative;
+    left: 80px;
+    bottom: 0px;
+    width: 380px;
+    margin-right:10%;
+    height: 35px;
+    flex-grow: 1;
+    border: 2px solid  black;
+    border-radius: 4px;
+}
+.navigationbar button{
+    /* color: white; */
+    /* flex-grow: 1; */
+    position: relative;
+    float: right;
+}
+.navigationbar .homeButton{
+    margin-right: 10px;
+}
+.navigationbar .navlogin{
+
+    height: 45px;
+    width: 120px;
+    border: 3px solid #f84464;
+    border-radius: 5px;
+    background-color: #f84464;
+}
+.DARK{
+    margin-right: 10px;
+}
+.navigationbar button{
+    /* position: absolute; */
+    /* top: 20px; */
+    /* right: 30px; */
+    height: 45px;
+    width: 120px;
+    /* border: 3px solid #f84464; */
+    border-radius: 5px;
+    background-color: transparent;
+}
+.moon{
+    color: white;
+    transform: scale(2.25,2.25);
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.navloginlink{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+    color: white;
+}
+.banners,#headerbanner{
+    width: 100%;
+    height: 510px;
+    /* border: 2px solid rgb(30, 240, 219); */
+}
+/* ****************** */
+
+/* body,rightside,leftside,bottam*/
+.leftside{
+    /* border: red 2px solid; */
+    width: 30%;
+    height: 700px;
+}
+.rightside{
+    /* border: 2px solid yellowgreen; */
+    height: 1000px;
+    width:70%;
+    position:absolute;
+    right: 0px;
+    top: 600px;
+}
+.gone{
+    /* visibility: none; */
+    background-color: purple;
+}
+.leftbottomside{
+    /* border: 2px solid ; */
+    height: 300px;
+    width: 30%;
+}
+.bottam{
+    /* border: 2px solid; */
+    width: 100%;
+    height: 100px;
+}
+/* ****************** */
+
+/* elements in body,.leftside,.rightside,.bottam */
+/* leftside  */
+.leftside form{
+    background-color:#f3dbeac6;
+    border: 4px solid #f3ebefc6;
+    border-radius: 16px;
+    width: 330px;
+    height: 70%;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    left:23px;
+}
+.leftside form  #state,#language,#format,#time{
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border: 5px solid  #333545;
+    border-radius: 7px;
+    background-color: #333545;
+    color: white;
+    font-weight: bolder;
+    margin: 20px 10px 20px 12px;
+}
+#searchbutton{
+    position: relative;
+    left: 38px;
+    width: 70%;
+    height: 50px;
+    background-color: #f84464;
+    border: 3px solid #f84464;
+    border-radius: 5px;
+}
+#searchlink{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+}
+/* rightside */
+.title{
+    /* border: 2px solid; */
+    height:120px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+#hr1{
+    width: 50%;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    bottom: 19px;
+    left: 214px;
+}
+.rightside .movies{
+    display: inline-block;
+    border: 1px solid;
+    width: 266px;
+    height: 400px;
+    margin: 11px 0px 11px 22px;
+}
+.rightside .movies .movieimg{
+    width: 266px;
+    height: 400px;   
+}
+.movieimg:hover{
+    transform: scale(1.10,1.10);
+}
+/* bottam */
+.bottam .more{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 755px;
+    border: 5px solid #f84464;
+    border-radius: 5px;
+    background-color: #f84464;
+}
+#more{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* ************** */
+/* footer */
+footer .last{
+    background-color: #333545;
+    width: 100%;
+    height: 180px;
+}
+footer .last .footerbar{
+    height: 70px;
+}
+footer .last .footerbar li{
+    display: inline-block;
+}
+footer .last .footerbar .li{
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    left: 560px;
+    color: white;
+    padding: 30px;
+}
+.hr2{
+    width: 50%;
+    margin: auto;
+}
+footer .copyright{
+    position: relative;
+    left: 530px;
+    top: 25px;
+    color: white;
+}
